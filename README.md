@@ -10,7 +10,8 @@ This section should start off with a paragraph description, then have subsection
 **Input File Format**
 
 Explain the format of the input file. What is the purpose of each field in a line. Explain what the user needs to do if they want to skip a line in the input file. Expalin what the user needs to do if they do not want a new user added to any groups.
-**Command Excuction**
+
+**Command Execuction**
 
 Explain how the user runs the code. Remind the user they may need to set the Python file to be executable. ./create-users.py < createusers.input
 **"Dry Run"**
