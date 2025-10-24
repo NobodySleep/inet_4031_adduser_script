@@ -56,7 +56,7 @@ def main():
 	#then the users will not be added to operating system.
         print (cmd)
 	if execute:
-            os.system(cmd)
+        os.system(cmd)
 
         #This print statement tells the end user that their password is being added to the account.
         print("==> Setting the password for %s..." % (username))
@@ -68,7 +68,7 @@ def main():
 	#operating system if 'n' was responded to earlier to run in dry-run.
         print (cmd)
 	if execute:
-            os.system(cmd)
+    	os.system(cmd)
 
         for group in groups:
             # An invalid group would be something with no characters or simply a '-'. This checks if the passed group is not empty.
@@ -77,8 +77,8 @@ def main():
                 print("==> Assigning %s to the %s group..." % (username,group))
                 cmd = "/usr/sbin/adduser %s %s" % (username,group)
                 print (cmd)
-		if execute:
-            	    os.system(cmd)
+				if execute:
+            		os.system(cmd)
 
 if __name__ == '__main__':
     main()
